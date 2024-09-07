@@ -9,10 +9,6 @@ const menuitems = [
 		path: '#about',
 	},
 	{
-		title: 'Projects',
-		path: '#projects',
-	},
-	{
 		title: 'Contact',
 		path: '#contact',
 	},
@@ -22,7 +18,7 @@ const menuitems = [
 <header data-testId="header" class="my-5 flex flex-col items-center justify-between lg:flex-row">
 	<Astronav>
 		<div class="flex w-full items-center justify-between lg:w-auto">
-			<Button size={'sm'} name="Download CV">Download CV</Button>
+			<Button size={'sm'} name="Download CV" onclick="window.open(`https://www.canva.com/design/DAGQCZQ5KxQ/1mBHAdK991oJqo28t4AoLw/view?utm_content=DAGQCZQ5KxQ&utm_campaign=designshare&utm_medium=link&utm_source=editor`)">Read CV</Button>
 			<div class="block lg:hidden">
 				<MenuIcon class="h-4 w-4 text-black dark:text-white" />
 			</div>
